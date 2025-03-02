@@ -1,0 +1,31 @@
+name: Main Faridaily Workflow
+
+on:
+    push:
+      branches:
+        - main
+jobs:
+  checkout-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install Poetry
+        run: |
+          pip install poetry
+          poetry config virtualenvs.create false
+
+      - name: Install dependencies
+        run: poetry install --no-interaction --no-root
+
+      - name: Run tests
+        run: poetry run pytest -p no:warnings --verbose
+        env:
+          DJANGO_SETTINGS_MODULE: backend.settings
+
