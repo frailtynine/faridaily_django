@@ -1,0 +1,40 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+.pytest_cache/
+
+# Environment variables
+.env
+.env.dev
+.env.prod
+
+# venv
+/venv/
+/.venv/
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Session files 
+*.session
+/session/

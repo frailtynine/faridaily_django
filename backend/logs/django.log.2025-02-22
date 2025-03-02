@@ -1,0 +1,983 @@
+INFO 2025-02-21 18:27:00,395 operation "GET - AuthController[verify] /api/auth/verify" 0.09266424179077148
+WARNING 2025-02-21 18:27:00,426 log Unauthorized: /api/auth/verify
+INFO 2025-02-21 18:27:00,444 operation "GET - AuthController[verify] /api/auth/verify" 0.01212310791015625
+WARNING 2025-02-21 18:27:00,449 log Unauthorized: /api/auth/verify
+WARNING 2025-02-21 18:27:00,643 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 401
+WARNING 2025-02-21 18:27:00,644 log Unauthorized: /api/token/refresh
+WARNING 2025-02-21 18:27:00,647 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 401
+WARNING 2025-02-21 18:27:00,651 log Unauthorized: /api/token/refresh
+INFO 2025-02-21 18:27:05,411 operation "GET - AuthController[verify] /api/auth/verify" 0.002525806427001953
+WARNING 2025-02-21 18:27:05,413 log Unauthorized: /api/auth/verify
+INFO 2025-02-21 18:27:05,418 operation "GET - AuthController[verify] /api/auth/verify" 0.0003120899200439453
+WARNING 2025-02-21 18:27:05,418 log Unauthorized: /api/auth/verify
+WARNING 2025-02-21 18:27:05,456 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 400
+WARNING 2025-02-21 18:27:05,456 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 400
+WARNING 2025-02-21 18:27:05,457 log Bad Request: /api/token/refresh
+WARNING 2025-02-21 18:27:05,457 log Bad Request: /api/token/refresh
+INFO 2025-02-21 20:39:15,140 operation "GET - AuthController[verify] /api/auth/verify" 0.04231691360473633
+WARNING 2025-02-21 20:39:15,165 log Unauthorized: /api/auth/verify
+INFO 2025-02-21 20:39:15,242 operation "GET - AuthController[verify] /api/auth/verify" 0.00011992454528808594
+WARNING 2025-02-21 20:39:15,262 log Unauthorized: /api/auth/verify
+WARNING 2025-02-21 20:39:15,448 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 400
+WARNING 2025-02-21 20:39:15,448 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 400
+WARNING 2025-02-21 20:39:15,450 log Bad Request: /api/token/refresh
+WARNING 2025-02-21 20:39:15,452 log Bad Request: /api/token/refresh
+INFO 2025-02-21 22:10:10,572 operation "GET - AuthController[verify] /api/auth/verify" 0.07262802124023438
+WARNING 2025-02-21 22:10:10,649 log Unauthorized: /api/auth/verify
+INFO 2025-02-21 22:10:10,682 operation "GET - AuthController[verify] /api/auth/verify" 0.0002751350402832031
+WARNING 2025-02-21 22:10:10,683 log Unauthorized: /api/auth/verify
+WARNING 2025-02-21 22:10:10,858 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 400
+WARNING 2025-02-21 22:10:10,864 log Bad Request: /api/token/refresh
+WARNING 2025-02-21 22:10:10,864 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 400
+WARNING 2025-02-21 22:10:10,865 log Bad Request: /api/token/refresh
+INFO 2025-02-22 17:41:40,303 autoreload /Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py changed, reloading.
+INFO 2025-02-22 17:41:41,654 autoreload Watching for file changes with StatReloader
+INFO 2025-02-22 17:41:41,713 aes libssl detected, it will be used for encryption
+INFO 2025-02-22 17:42:10,470 autoreload /Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py changed, reloading.
+INFO 2025-02-22 17:42:12,476 autoreload Watching for file changes with StatReloader
+INFO 2025-02-22 17:42:12,567 aes libssl detected, it will be used for encryption
+INFO 2025-02-22 18:28:58,027 autoreload /Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py changed, reloading.
+INFO 2025-02-22 18:28:59,769 autoreload Watching for file changes with StatReloader
+INFO 2025-02-22 18:28:59,834 aes libssl detected, it will be used for encryption
+INFO 2025-02-22 18:30:23,393 autoreload /Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py changed, reloading.
+INFO 2025-02-22 18:30:24,101 autoreload Watching for file changes with StatReloader
+INFO 2025-02-22 18:30:24,160 aes libssl detected, it will be used for encryption
+INFO 2025-02-22 18:32:03,694 autoreload /Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py changed, reloading.
+INFO 2025-02-22 18:32:04,364 autoreload Watching for file changes with StatReloader
+INFO 2025-02-22 18:32:04,421 aes libssl detected, it will be used for encryption
+INFO 2025-02-22 18:33:29,810 autoreload /Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py changed, reloading.
+INFO 2025-02-22 18:33:30,811 autoreload Watching for file changes with StatReloader
+INFO 2025-02-22 18:33:30,871 aes libssl detected, it will be used for encryption
+INFO 2025-02-22 18:34:13,654 autoreload /Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py changed, reloading.
+INFO 2025-02-22 18:34:14,370 autoreload Watching for file changes with StatReloader
+INFO 2025-02-22 18:34:14,428 aes libssl detected, it will be used for encryption
+INFO 2025-02-22 18:34:16,463 operation "GET - AuthController[verify] /api/auth/verify" 0.0005660057067871094
+WARNING 2025-02-22 18:34:16,464 log Unauthorized: /api/auth/verify
+INFO 2025-02-22 18:34:16,470 operation "GET - AuthController[verify] /api/auth/verify" 0.00027489662170410156
+WARNING 2025-02-22 18:34:16,470 log Unauthorized: /api/auth/verify
+WARNING 2025-02-22 18:34:16,495 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 400
+WARNING 2025-02-22 18:34:16,496 log Bad Request: /api/token/refresh
+WARNING 2025-02-22 18:34:16,496 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 400
+WARNING 2025-02-22 18:34:16,498 log Bad Request: /api/token/refresh
+INFO 2025-02-22 18:34:23,551 operation "POST - AsyncNinjaJWTSlidingController[obtain_token] /api/token/pair" 0.2967031002044678
+INFO 2025-02-22 18:34:23,609 operation "GET - AuthController[verify] /api/auth/verify" 0.0026302337646484375
+INFO 2025-02-22 18:34:23,612 operation "GET - AuthController[verify] /api/auth/verify" 0.0020720958709716797
+INFO 2025-02-22 18:34:23,677 operation "GET - DraftController[get_drafts] /api/drafts/" 0.011579275131225586
+INFO 2025-02-22 18:34:23,683 operation "GET - DraftController[get_drafts] /api/drafts/" 0.004675865173339844
+INFO 2025-02-22 18:34:23,693 mtprotosender Connecting to 149.154.167.51:443/TcpFull...
+INFO 2025-02-22 18:34:23,729 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.06283879280090332
+INFO 2025-02-22 18:34:23,758 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.09151792526245117
+INFO 2025-02-22 18:34:23,776 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.04573702812194824
+INFO 2025-02-22 18:34:23,857 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.0870218276977539
+INFO 2025-02-22 18:34:24,668 mtprotosender Connection to 149.154.167.51:443/TcpFull complete!
+WARNING 2025-02-22 18:34:24,814 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" ('EOF when reading a line',)
+ERROR 2025-02-22 18:34:24,814 errors EOF when reading a line
+Traceback (most recent call last):
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/operation.py", line 210, in run
+    result = self.view_func(request, **values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/controllers/route/route_functions.py", line 97, in as_view
+    result = self.route.view_func(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 108, in refresh_data
+    channel_db = fetch_telegram_data(settings.CHANNEL_NAME, MESSAGES_LIMIT)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 53, in fetch_telegram_data
+    channel_response, messages = async_to_sync(
+                                 ^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py", line 66, in get_data
+    async with TelegramClient(
+               ^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 657, in __aenter__
+    return await self.start()
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 165, in _start
+    value = phone()
+            ^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 22, in <lambda>
+    phone: typing.Union[typing.Callable[[], str], str] = lambda: input('Please enter your phone (or bot token): '),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+ERROR 2025-02-22 18:34:24,817 log Internal Server Error: /api/tg/refresh_data
+INFO 2025-02-22 18:34:24,826 mtprotosender Connecting to 149.154.167.51:443/TcpFull...
+INFO 2025-02-22 18:34:24,858 mtprotosender Connection to 149.154.167.51:443/TcpFull complete!
+WARNING 2025-02-22 18:34:25,005 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" ('EOF when reading a line',)
+ERROR 2025-02-22 18:34:25,006 errors EOF when reading a line
+Traceback (most recent call last):
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/operation.py", line 210, in run
+    result = self.view_func(request, **values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/controllers/route/route_functions.py", line 97, in as_view
+    result = self.route.view_func(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 108, in refresh_data
+    channel_db = fetch_telegram_data(settings.CHANNEL_NAME, MESSAGES_LIMIT)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 53, in fetch_telegram_data
+    channel_response, messages = async_to_sync(
+                                 ^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py", line 66, in get_data
+    async with TelegramClient(
+               ^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 657, in __aenter__
+    return await self.start()
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 165, in _start
+    value = phone()
+            ^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 22, in <lambda>
+    phone: typing.Union[typing.Callable[[], str], str] = lambda: input('Please enter your phone (or bot token): '),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+ERROR 2025-02-22 18:34:25,006 log Internal Server Error: /api/tg/refresh_data
+INFO 2025-02-22 18:34:31,029 operation "GET - TelegramController[get_templates] /api/tg/template" 0.011133909225463867
+INFO 2025-02-22 18:34:31,039 operation "GET - TelegramController[get_message] /api/tg/messages/466" 0.016907930374145508
+INFO 2025-02-22 18:34:31,049 operation "GET - TelegramController[get_templates] /api/tg/template" 0.015977859497070312
+INFO 2025-02-22 18:34:31,056 operation "GET - TelegramController[get_message] /api/tg/messages/466" 0.012321949005126953
+INFO 2025-02-22 18:34:33,049 operation "GET - AuthController[verify] /api/auth/verify" 0.003857135772705078
+INFO 2025-02-22 18:34:33,053 operation "GET - AuthController[verify] /api/auth/verify" 0.002811908721923828
+INFO 2025-02-22 18:34:33,070 operation "GET - DraftController[get_drafts] /api/drafts/" 0.008939027786254883
+INFO 2025-02-22 18:34:33,072 mtprotosender Connecting to 149.154.167.51:443/TcpFull...
+INFO 2025-02-22 18:34:33,076 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.013933658599853516
+INFO 2025-02-22 18:34:33,079 operation "GET - DraftController[get_drafts] /api/drafts/" 0.00731205940246582
+INFO 2025-02-22 18:34:33,088 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.010110139846801758
+INFO 2025-02-22 18:34:33,127 mtprotosender Connection to 149.154.167.51:443/TcpFull complete!
+INFO 2025-02-22 18:34:33,130 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.06867790222167969
+INFO 2025-02-22 18:34:33,275 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.1427900791168213
+WARNING 2025-02-22 18:34:33,346 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" ('EOF when reading a line',)
+ERROR 2025-02-22 18:34:33,346 errors EOF when reading a line
+Traceback (most recent call last):
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/operation.py", line 210, in run
+    result = self.view_func(request, **values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/controllers/route/route_functions.py", line 97, in as_view
+    result = self.route.view_func(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 108, in refresh_data
+    channel_db = fetch_telegram_data(settings.CHANNEL_NAME, MESSAGES_LIMIT)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 53, in fetch_telegram_data
+    channel_response, messages = async_to_sync(
+                                 ^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py", line 66, in get_data
+    async with TelegramClient(
+               ^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 657, in __aenter__
+    return await self.start()
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 165, in _start
+    value = phone()
+            ^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 22, in <lambda>
+    phone: typing.Union[typing.Callable[[], str], str] = lambda: input('Please enter your phone (or bot token): '),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+ERROR 2025-02-22 18:34:33,352 log Internal Server Error: /api/tg/refresh_data
+INFO 2025-02-22 18:34:33,356 mtprotosender Connecting to 149.154.167.51:443/TcpFull...
+INFO 2025-02-22 18:34:33,387 mtprotosender Connection to 149.154.167.51:443/TcpFull complete!
+WARNING 2025-02-22 18:34:33,537 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" ('EOF when reading a line',)
+ERROR 2025-02-22 18:34:33,538 errors EOF when reading a line
+Traceback (most recent call last):
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/operation.py", line 210, in run
+    result = self.view_func(request, **values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/controllers/route/route_functions.py", line 97, in as_view
+    result = self.route.view_func(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 108, in refresh_data
+    channel_db = fetch_telegram_data(settings.CHANNEL_NAME, MESSAGES_LIMIT)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 53, in fetch_telegram_data
+    channel_response, messages = async_to_sync(
+                                 ^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py", line 66, in get_data
+    async with TelegramClient(
+               ^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 657, in __aenter__
+    return await self.start()
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 165, in _start
+    value = phone()
+            ^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 22, in <lambda>
+    phone: typing.Union[typing.Callable[[], str], str] = lambda: input('Please enter your phone (or bot token): '),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+ERROR 2025-02-22 18:34:33,539 log Internal Server Error: /api/tg/refresh_data
+INFO 2025-02-22 18:34:36,573 mtprotosender Connecting to 149.154.167.51:443/TcpFull...
+INFO 2025-02-22 18:34:36,603 mtprotosender Connection to 149.154.167.51:443/TcpFull complete!
+INFO 2025-02-22 18:34:36,741 mtprotosender Disconnecting from 149.154.167.51:443/TcpFull...
+INFO 2025-02-22 18:34:36,743 mtprotosender Disconnection from 149.154.167.51:443/TcpFull complete!
+INFO 2025-02-22 18:34:36,747 operation "GET - TelethonController[check_verified] /api/telethon/check-verified" 0.18848919868469238
+INFO 2025-02-22 18:34:36,757 mtprotosender Connecting to 149.154.167.51:443/TcpFull...
+INFO 2025-02-22 18:34:36,784 mtprotosender Connection to 149.154.167.51:443/TcpFull complete!
+INFO 2025-02-22 18:34:36,921 mtprotosender Disconnecting from 149.154.167.51:443/TcpFull...
+INFO 2025-02-22 18:34:36,922 mtprotosender Disconnection from 149.154.167.51:443/TcpFull complete!
+INFO 2025-02-22 18:34:36,925 operation "GET - TelethonController[check_verified] /api/telethon/check-verified" 0.17093515396118164
+INFO 2025-02-22 18:34:52,516 mtprotosender Connecting to 149.154.167.51:443/TcpFull...
+INFO 2025-02-22 18:34:52,550 mtprotosender Connection to 149.154.167.51:443/TcpFull complete!
+INFO 2025-02-22 18:34:52,765 users Phone migrated to 4
+INFO 2025-02-22 18:34:52,766 telegrambaseclient Reconnecting to new data center 4
+INFO 2025-02-22 18:34:52,811 mtprotosender Disconnecting from 149.154.167.51:443/TcpFull...
+INFO 2025-02-22 18:34:52,812 mtprotosender Disconnection from 149.154.167.51:443/TcpFull complete!
+INFO 2025-02-22 18:34:52,812 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:34:54,007 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:34:54,377 mtprotosender Disconnecting from 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:34:54,377 mtprotosender Disconnection from 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:34:54,380 operation "POST - TelethonController[send_credentials] /api/telethon/send-code" 1.874513864517212
+INFO 2025-02-22 18:35:19,852 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:35:19,887 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:35:20,781 mtprotosender Disconnecting from 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:35:20,782 mtprotosender Disconnection from 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:35:20,784 operation "POST - TelethonController[verify] /api/telethon/verify" 0.9527480602264404
+INFO 2025-02-22 18:35:39,683 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:35:39,693 operation "GET - DraftController[get_drafts] /api/drafts/" 0.02603602409362793
+INFO 2025-02-22 18:35:39,708 operation "GET - DraftController[get_drafts] /api/drafts/" 0.008288860321044922
+INFO 2025-02-22 18:35:39,715 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:35:39,721 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.04881000518798828
+INFO 2025-02-22 18:35:39,732 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.010647058486938477
+INFO 2025-02-22 18:35:39,821 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.15018320083618164
+INFO 2025-02-22 18:35:39,926 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.10368800163269043
+INFO 2025-02-22 18:35:41,152 mtprotosender Disconnecting from 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:35:41,153 mtprotosender Disconnection from 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:35:41,182 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" 1.509721040725708
+INFO 2025-02-22 18:35:41,185 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:35:41,216 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:35:42,418 mtprotosender Disconnecting from 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:35:42,418 mtprotosender Disconnection from 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:35:42,449 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" 1.2655789852142334
+INFO 2025-02-22 18:35:50,297 operation "GET - TelegramController[get_templates] /api/tg/template" 0.02283000946044922
+INFO 2025-02-22 18:35:50,297 operation "GET - TelegramController[get_message] /api/tg/messages/464" 0.006412029266357422
+INFO 2025-02-22 18:35:50,310 operation "GET - TelegramController[get_templates] /api/tg/template" 0.009695053100585938
+INFO 2025-02-22 18:35:50,313 operation "GET - TelegramController[get_message] /api/tg/messages/464" 0.008011102676391602
+INFO 2025-02-22 18:35:53,676 operation "GET - AuthController[verify] /api/auth/verify" 0.010580062866210938
+INFO 2025-02-22 18:35:53,696 operation "GET - AuthController[verify] /api/auth/verify" 0.015197038650512695
+INFO 2025-02-22 18:35:53,716 operation "GET - DraftController[get_drafts] /api/drafts/" 0.019019126892089844
+INFO 2025-02-22 18:35:53,720 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:35:53,727 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.02398824691772461
+INFO 2025-02-22 18:35:53,738 operation "GET - DraftController[get_drafts] /api/drafts/" 0.01955413818359375
+INFO 2025-02-22 18:35:53,754 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.023572921752929688
+INFO 2025-02-22 18:35:53,812 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.11308407783508301
+INFO 2025-02-22 18:35:53,867 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:35:53,881 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.06756591796875
+INFO 2025-02-22 18:35:55,122 mtprotosender Disconnecting from 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:35:55,123 mtprotosender Disconnection from 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:35:55,158 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" 1.4498450756072998
+INFO 2025-02-22 18:35:55,162 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:35:55,191 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:35:56,002 mtprotosender Disconnecting from 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:35:56,004 mtprotosender Disconnection from 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:35:56,045 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" 0.8847649097442627
+INFO 2025-02-22 18:37:09,125 autoreload /Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py changed, reloading.
+INFO 2025-02-22 18:37:10,090 autoreload Watching for file changes with StatReloader
+INFO 2025-02-22 18:37:10,147 aes libssl detected, it will be used for encryption
+INFO 2025-02-22 18:37:17,384 operation "GET - AuthController[verify] /api/auth/verify" 0.05334305763244629
+INFO 2025-02-22 18:37:17,387 operation "GET - AuthController[verify] /api/auth/verify" 0.0014429092407226562
+INFO 2025-02-22 18:37:17,453 operation "GET - DraftController[get_drafts] /api/drafts/" 0.01818704605102539
+INFO 2025-02-22 18:37:17,454 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:37:17,465 operation "GET - DraftController[get_drafts] /api/drafts/" 0.009871959686279297
+INFO 2025-02-22 18:37:17,483 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:37:17,486 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.04407906532287598
+INFO 2025-02-22 18:37:17,523 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.08455705642700195
+INFO 2025-02-22 18:37:17,530 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.04138493537902832
+INFO 2025-02-22 18:37:17,602 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.07551383972167969
+INFO 2025-02-22 18:37:18,894 mtprotosender Disconnecting from 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:37:18,894 mtprotosender Disconnection from 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:37:18,944 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" 1.5013339519500732
+INFO 2025-02-22 18:37:18,949 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:37:18,981 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:37:22,516 mtprotosender Disconnecting from 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:37:22,517 mtprotosender Disconnection from 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:37:22,552 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" 3.6047041416168213
+INFO 2025-02-22 18:37:58,566 operation "GET - AuthController[verify] /api/auth/verify" 0.05723214149475098
+INFO 2025-02-22 18:37:58,575 operation "GET - AuthController[verify] /api/auth/verify" 0.0032477378845214844
+INFO 2025-02-22 18:37:58,698 operation "GET - DraftController[get_drafts] /api/drafts/" 0.03250694274902344
+INFO 2025-02-22 18:37:58,702 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:37:58,710 operation "GET - DraftController[get_drafts] /api/drafts/" 0.007093906402587891
+INFO 2025-02-22 18:37:58,729 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.05877995491027832
+INFO 2025-02-22 18:37:58,739 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:37:58,744 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.010174036026000977
+INFO 2025-02-22 18:37:58,797 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.1280531883239746
+INFO 2025-02-22 18:37:59,024 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.22310876846313477
+INFO 2025-02-22 18:38:00,105 mtprotosender Disconnecting from 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:38:00,106 mtprotosender Disconnection from 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-22 18:38:00,140 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" 1.468703031539917
+INFO 2025-02-22 18:38:00,145 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-22 18:38:00,177 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+WARNING 2025-02-22 18:48:06,608 mtprotostate Server sent a very old message with ID 7474314605241981953, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,642 mtprotostate Server sent a very old message with ID 7474314612723770369, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,648 mtprotostate Server sent a very old message with ID 7474314621870027777, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,651 mtprotostate Server sent a very old message with ID 7474314638914642953, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,660 mtprotostate Server sent a very old message with ID 7474314638914835457, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,661 mtprotostate Server sent a very old message with ID 7474314642046711809, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,661 mtprotostate Server sent a very old message with ID 7474314646318402561, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,664 mtprotostate Server sent a very old message with ID 7474314675533007873, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,664 mtprotostate Server sent a very old message with ID 7474314679471676417, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,664 mtprotostate Server sent a very old message with ID 7474314680359960577, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,665 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,667 mtprotostate Server sent a very old message with ID 7474314689301762049, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,667 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,669 mtprotostate Server sent a very old message with ID 7474314698833945601, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,669 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,669 mtprotostate Server sent a very old message with ID 7474314699956014081, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,669 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,669 mtprotostate Server sent a very old message with ID 7474314704487383041, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,669 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,671 mtprotostate Server sent a very old message with ID 7474314718422501377, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,671 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,671 mtprotostate Server sent a very old message with ID 7474314718422675457, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,671 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,672 mtprotostate Server sent a very old message with ID 7474314718422501381, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,672 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,672 mtprotostate Server sent a very old message with ID 7474314720394541057, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,672 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,672 mtprotostate Server sent a very old message with ID 7474314724669562881, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,672 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,672 mtprotostate Server sent a very old message with ID 7474314724761776129, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,672 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,672 mtprotostate Server sent a very old message with ID 7474314724820814849, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,672 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,672 mtprotostate Server sent a very old message with ID 7474314730774789121, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,672 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,672 mtprotostate Server sent a very old message with ID 7474314754675676161, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,673 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,673 mtprotostate Server sent a very old message with ID 7474314756674911233, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,673 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,673 mtprotostate Server sent a very old message with ID 7474314757168303105, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,673 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,674 mtprotostate Server sent a very old message with ID 7474314759030882305, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,674 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,676 mtprotostate Server sent a very old message with ID 7474314759030882309, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,676 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,677 mtprotostate Server sent a very old message with ID 7474314765645772801, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,677 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,677 mtprotostate Server sent a very old message with ID 7474314765917228033, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,677 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,678 mtprotostate Server sent a very old message with ID 7474314766518098945, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,678 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,678 mtprotostate Server sent a very old message with ID 7474314771252549633, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,678 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,678 mtprotostate Server sent a very old message with ID 7474314773926596609, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,678 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,678 mtprotostate Server sent a very old message with ID 7474314776549373953, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,678 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,678 mtprotostate Server sent a very old message with ID 7474314782367529985, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,678 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,679 mtprotostate Server sent a very old message with ID 7474314785537406977, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,679 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,679 mtprotostate Server sent a very old message with ID 7474314803847188481, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,679 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,679 mtprotostate Server sent a very old message with ID 7474314810269498369, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,679 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,679 mtprotostate Server sent a very old message with ID 7474314813326294017, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,679 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,679 mtprotostate Server sent a very old message with ID 7474314827892187137, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,679 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,679 mtprotostate Server sent a very old message with ID 7474314830649250817, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,679 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,680 mtprotostate Server sent a very old message with ID 7474314833187387393, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,680 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,680 mtprotostate Server sent a very old message with ID 7474314841087854593, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,680 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,680 mtprotostate Server sent a very old message with ID 7474314845099833345, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,680 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,680 mtprotostate Server sent a very old message with ID 7474314854716684289, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,680 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,680 mtprotostate Server sent a very old message with ID 7474314857128508417, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,680 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,680 mtprotostate Server sent a very old message with ID 7474314858288319489, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,680 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,680 mtprotostate Server sent a very old message with ID 7474314860165194753, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,680 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,680 mtprotostate Server sent a very old message with ID 7474314860191704065, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,680 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,680 mtprotostate Server sent a very old message with ID 7474314860592945153, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,680 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,681 mtprotostate Server sent a very old message with ID 7474314860671617025, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,681 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,681 mtprotostate Server sent a very old message with ID 7474314863515471873, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,681 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,681 mtprotostate Server sent a very old message with ID 7474314864789363713, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,681 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,681 mtprotostate Server sent a very old message with ID 7474314865193536513, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,681 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,681 mtprotostate Server sent a very old message with ID 7474314867105934337, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,681 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,681 mtprotostate Server sent a very old message with ID 7474314867257391105, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,681 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,681 mtprotostate Server sent a very old message with ID 7474314869207565313, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,681 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314869995368449, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314874428964865, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314876592073729, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314881179006977, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314882090237953, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314886586283009, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314887611126785, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314891855391745, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314894500775937, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314899101592577, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,682 mtprotostate Server sent a very old message with ID 7474314900581883905, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,682 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314905880434689, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,683 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314905891884033, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,683 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314910723667969, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,683 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314916131400705, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,683 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314919988008961, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,683 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314920820884481, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,683 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314925243279361, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,683 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314929524645889, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,683 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314934502809601, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,683 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314938779216897, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,683 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,683 mtprotostate Server sent a very old message with ID 7474314946168532993, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,684 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,684 mtprotostate Server sent a very old message with ID 7474314955534658561, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,684 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,684 mtprotostate Server sent a very old message with ID 7474314956469219329, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,684 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,684 mtprotostate Server sent a very old message with ID 7474314961059151873, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,684 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,684 mtprotostate Server sent a very old message with ID 7474314961233626113, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,684 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,684 mtprotostate Server sent a very old message with ID 7474314965701024769, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,684 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,684 mtprotostate Server sent a very old message with ID 7474314967508339713, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,684 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,685 mtprotostate Server sent a very old message with ID 7474314970037673985, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,685 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,685 mtprotostate Server sent a very old message with ID 7474314977855614977, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,685 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,685 mtprotostate Server sent a very old message with ID 7474314978536140801, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,685 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,685 mtprotostate Server sent a very old message with ID 7474314978786640897, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,685 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,685 mtprotostate Server sent a very old message with ID 7474314978982952961, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,685 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,685 mtprotostate Server sent a very old message with ID 7474314980099236865, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,685 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,686 mtprotostate Server sent a very old message with ID 7474314980573043713, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,686 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,686 mtprotostate Server sent a very old message with ID 7474314982430623745, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,686 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,686 mtprotostate Server sent a very old message with ID 7474314982435567617, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,686 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,686 mtprotostate Server sent a very old message with ID 7474314984255843329, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,686 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,686 mtprotostate Server sent a very old message with ID 7474314986025857025, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,686 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,686 mtprotostate Server sent a very old message with ID 7474314986761877505, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,686 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,686 mtprotostate Server sent a very old message with ID 7474314987503889409, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,686 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,686 mtprotostate Server sent a very old message with ID 7474314990381726721, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,686 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,686 mtprotostate Server sent a very old message with ID 7474314991652773889, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,686 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,686 mtprotostate Server sent a very old message with ID 7474314996170134529, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,686 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,687 mtprotostate Server sent a very old message with ID 7474315002553189377, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,687 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,687 mtprotostate Server sent a very old message with ID 7474315007006518273, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,687 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,687 mtprotostate Server sent a very old message with ID 7474315007563701249, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,687 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,687 mtprotostate Server sent a very old message with ID 7474315008153204737, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,687 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,687 mtprotostate Server sent a very old message with ID 7474315013178503169, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,687 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,687 mtprotostate Server sent a very old message with ID 7474315015254768641, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,687 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,687 mtprotostate Server sent a very old message with ID 7474315017115080705, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,687 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,687 mtprotostate Server sent a very old message with ID 7474315019210691585, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,687 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,688 mtprotostate Server sent a very old message with ID 7474315021982868481, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,688 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,688 mtprotostate Server sent a very old message with ID 7474315026926873601, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,688 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,688 mtprotostate Server sent a very old message with ID 7474315027094843393, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,688 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,688 mtprotostate Server sent a very old message with ID 7474315027296601089, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,688 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,688 mtprotostate Server sent a very old message with ID 7474315029245677569, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,688 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,688 mtprotostate Server sent a very old message with ID 7474315031529414657, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,688 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,688 mtprotostate Server sent a very old message with ID 7474315031886654465, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,688 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,688 mtprotostate Server sent a very old message with ID 7474315032025748481, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,688 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,688 mtprotostate Server sent a very old message with ID 7474315032306228225, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,689 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,689 mtprotostate Server sent a very old message with ID 7474315035826373633, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,689 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,689 mtprotostate Server sent a very old message with ID 7474315040378641409, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,689 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,689 mtprotostate Server sent a very old message with ID 7474315041254249473, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,689 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,689 mtprotostate Server sent a very old message with ID 7474315042818720769, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,689 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,689 mtprotostate Server sent a very old message with ID 7474315045952111617, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,689 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,689 mtprotostate Server sent a very old message with ID 7474315050582076417, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,689 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,689 mtprotostate Server sent a very old message with ID 7474315054000024577, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,689 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,689 mtprotostate Server sent a very old message with ID 7474315055066431489, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,689 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,689 mtprotostate Server sent a very old message with ID 7474315067919126529, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,689 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,690 mtprotostate Server sent a very old message with ID 7474315068203577345, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,690 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,690 mtprotostate Server sent a very old message with ID 7474315077746648065, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,690 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,690 mtprotostate Server sent a very old message with ID 7474315088102861825, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,690 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,690 mtprotostate Server sent a very old message with ID 7474315092141376513, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,690 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,690 mtprotostate Server sent a very old message with ID 7474315110723217409, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,690 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,690 mtprotostate Server sent a very old message with ID 7474315111800964097, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,690 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,690 mtprotostate Server sent a very old message with ID 7474315112012460033, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,690 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,690 mtprotostate Server sent a very old message with ID 7474315119963354113, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,690 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,691 mtprotostate Server sent a very old message with ID 7474315132051693577, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,691 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,693 mtprotostate Server sent a very old message with ID 7474315132051693573, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,693 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,693 mtprotostate Server sent a very old message with ID 7474315132051693569, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,693 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,693 mtprotostate Server sent a very old message with ID 7474315133085418497, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,693 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,693 mtprotostate Server sent a very old message with ID 7474315135423296513, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,693 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,693 mtprotostate Server sent a very old message with ID 7474315150364993537, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,693 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,693 mtprotostate Server sent a very old message with ID 7474315150365176837, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,693 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,693 mtprotostate Server sent a very old message with ID 7474315150365176833, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,693 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,694 mtprotostate Server sent a very old message with ID 7474315150364993541, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,694 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,694 mtprotostate Server sent a very old message with ID 7474315151779859457, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,694 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,694 mtprotostate Server sent a very old message with ID 7474315189166344193, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,694 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,694 mtprotostate Server sent a very old message with ID 7474315189166557185, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,694 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,695 mtprotostate Server sent a very old message with ID 7474315189166344209, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,695 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,697 mtprotostate Server sent a very old message with ID 7474315189166344197, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,697 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,697 mtprotostate Server sent a very old message with ID 7474315192838348801, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,697 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,701 mtprotostate Server sent a very old message with ID 7474315196150728709, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,701 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,701 mtprotostate Server sent a very old message with ID 7474315196150728705, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,701 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,701 mtprotostate Server sent a very old message with ID 7474315197157229569, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,701 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,701 mtprotostate Server sent a very old message with ID 7474315199970198529, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,701 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,701 mtprotostate Server sent a very old message with ID 7474315205069898753, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,701 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,701 mtprotostate Server sent a very old message with ID 7474315208648027137, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,701 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,702 mtprotostate Server sent a very old message with ID 7474315210782537729, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,702 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,702 mtprotostate Server sent a very old message with ID 7474315215685175297, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,702 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,702 mtprotostate Server sent a very old message with ID 7474315219586501633, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,702 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,702 mtprotostate Server sent a very old message with ID 7474315219586501637, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,702 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,702 mtprotostate Server sent a very old message with ID 7474315238533174273, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,702 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,702 mtprotostate Server sent a very old message with ID 7474315244696264705, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,702 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,703 mtprotostate Server sent a very old message with ID 7474315244696264713, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,703 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,705 mtprotostate Server sent a very old message with ID 7474315244696264709, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,706 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,706 mtprotostate Server sent a very old message with ID 7474315264186471425, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,706 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,710 mtprotostate Server sent a very old message with ID 7474315271912589313, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,710 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,710 mtprotostate Server sent a very old message with ID 7474315276762170369, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,710 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,710 mtprotostate Server sent a very old message with ID 7474315279413309441, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,710 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,710 mtprotostate Server sent a very old message with ID 7474315280339321857, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,710 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,710 mtprotostate Server sent a very old message with ID 7474315283301412865, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,710 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,710 mtprotostate Server sent a very old message with ID 7474315285079060481, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,710 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,711 mtprotostate Server sent a very old message with ID 7474315286211397633, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,711 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,711 mtprotostate Server sent a very old message with ID 7474315286313700353, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,711 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,711 mtprotostate Server sent a very old message with ID 7474315290143499265, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,711 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,711 mtprotostate Server sent a very old message with ID 7474315290953318401, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,711 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,711 mtprotostate Server sent a very old message with ID 7474315291002507265, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,711 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,714 mtprotostate Server sent a very old message with ID 7474315291687192577, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,714 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,714 mtprotostate Server sent a very old message with ID 7474315293565263873, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,714 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,714 mtprotostate Server sent a very old message with ID 7474315300461838337, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,714 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,715 mtprotostate Server sent a very old message with ID 7474315305279967233, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,715 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,715 mtprotostate Server sent a very old message with ID 7474315310199142401, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,715 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,715 mtprotostate Server sent a very old message with ID 7474315326046179329, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,715 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,715 mtprotostate Server sent a very old message with ID 7474315327880040449, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,715 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,715 mtprotostate Server sent a very old message with ID 7474315331263898625, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,715 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,715 mtprotostate Server sent a very old message with ID 7474315333260593153, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,715 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,715 mtprotostate Server sent a very old message with ID 7474315334422750209, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,715 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,715 mtprotostate Server sent a very old message with ID 7474315338979226633, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,715 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,729 mtprotostate Server sent a very old message with ID 7474315338979226629, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,729 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,729 mtprotostate Server sent a very old message with ID 7474315338979226625, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,729 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315341884517377, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315345502409729, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315345820126209, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315346796515329, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315358368870401, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315360593918977, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315361520157697, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315371813605377, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315372182423553, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315376752093185, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,730 mtprotostate Server sent a very old message with ID 7474315380549609473, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,730 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,731 mtprotostate Server sent a very old message with ID 7474315400750276609, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,731 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,731 mtprotostate Server sent a very old message with ID 7474315407028441089, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,731 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,731 mtprotostate Server sent a very old message with ID 7474315413490189313, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,731 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,731 mtprotostate Server sent a very old message with ID 7474315413653204993, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,731 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,731 mtprotostate Server sent a very old message with ID 7474315419609231361, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,731 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,731 mtprotostate Server sent a very old message with ID 7474315422229195777, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,731 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,731 mtprotostate Server sent a very old message with ID 7474315456066418689, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,731 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,731 mtprotostate Server sent a very old message with ID 7474315456066585601, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,731 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315456066418693, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315474345555969, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315490033038337, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315495663641601, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315499000163329, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315500066378753, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315500338973697, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315510146835457, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315512671760385, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315515115691009, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315515295153153, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,733 mtprotostate Server sent a very old message with ID 7474315538586541057, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,733 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,734 mtprotostate Server sent a very old message with ID 7474315540878201857, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,734 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,734 mtprotostate Server sent a very old message with ID 7474315543637797889, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,734 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,734 mtprotostate Server sent a very old message with ID 7474315544316961793, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,734 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,734 mtprotostate Server sent a very old message with ID 7474315551700609025, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,734 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,734 mtprotostate Server sent a very old message with ID 7474315561099308033, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,734 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,734 mtprotostate Server sent a very old message with ID 7474315569698512897, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,734 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,734 mtprotostate Server sent a very old message with ID 7474315571271048193, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,734 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,734 mtprotostate Server sent a very old message with ID 7474315575411538945, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,734 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,734 mtprotostate Server sent a very old message with ID 7474315576815885313, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,734 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,735 mtprotostate Server sent a very old message with ID 7474315581961186305, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,735 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,735 mtprotostate Server sent a very old message with ID 7474315583843908609, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,735 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,735 mtprotostate Server sent a very old message with ID 7474315585301831681, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,735 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,735 mtprotostate Server sent a very old message with ID 7474315590713773057, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,735 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,735 mtprotostate Server sent a very old message with ID 7474315592569334785, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,735 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,738 mtprotostate Server sent a very old message with ID 7474315599460147201, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,738 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,738 mtprotostate Server sent a very old message with ID 7474315627283543041, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,738 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,738 mtprotostate Server sent a very old message with ID 7474315632687257601, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,738 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,738 mtprotostate Server sent a very old message with ID 7474315633721028609, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,738 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,738 mtprotostate Server sent a very old message with ID 7474315635784186881, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,738 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,738 mtprotostate Server sent a very old message with ID 7474315649596038145, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,738 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,738 mtprotostate Server sent a very old message with ID 7474315658653344769, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,738 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,738 mtprotostate Server sent a very old message with ID 7474315673178177537, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,738 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,738 mtprotostate Server sent a very old message with ID 7474315679079590913, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,738 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,738 mtprotostate Server sent a very old message with ID 7474315686490508289, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315687562511361, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315691909243905, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315712421545985, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315715986097153, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315716991430657, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315737109707777, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315739433783297, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315742735015937, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315743761554433, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315756583363585, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,739 mtprotostate Server sent a very old message with ID 7474315761545147393, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,739 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315765648906241, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315770294448129, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315770673934337, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315783650271233, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315795016624129, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315799979544577, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315809303168001, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315817633659905, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315821720199169, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315840937340929, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,740 mtprotostate Server sent a very old message with ID 7474315841725712385, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,740 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,741 mtprotostate Server sent a very old message with ID 7474315846709593089, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,741 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,741 mtprotostate Server sent a very old message with ID 7474315886628049921, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,741 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,741 mtprotostate Server sent a very old message with ID 7474315887768320001, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,741 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+WARNING 2025-02-22 18:48:06,741 mtprotostate Server sent a very old message with ID 7474315889109056513, ignoring (see FAQ for details)
+WARNING 2025-02-22 18:48:06,741 mtprotosender Security error while unpacking a received message: Too many messages had to be ignored consecutively
+INFO 2025-02-23 13:57:09,292 operation "GET - AuthController[verify] /api/auth/verify" 0.04253888130187988
+WARNING 2025-02-23 13:57:09,298 log Unauthorized: /api/auth/verify
+INFO 2025-02-23 13:57:09,304 operation "GET - AuthController[verify] /api/auth/verify" 0.001585245132446289
+WARNING 2025-02-23 13:57:09,306 log Unauthorized: /api/auth/verify
+INFO 2025-02-23 13:57:09,410 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 0.08433175086975098
+INFO 2025-02-23 13:57:09,410 operation "POST - AsyncNinjaJWTSlidingController[refresh_token] /api/token/refresh" 0.08976888656616211
+INFO 2025-02-23 13:57:09,440 operation "GET - AuthController[verify] /api/auth/verify" 0.025569915771484375
+INFO 2025-02-23 13:57:09,444 operation "GET - AuthController[verify] /api/auth/verify" 0.002233266830444336
+INFO 2025-02-23 13:57:09,561 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-23 13:57:09,566 operation "GET - DraftController[get_drafts] /api/drafts/" 0.03937935829162598
+INFO 2025-02-23 13:57:09,598 operation "GET - DraftController[get_drafts] /api/drafts/" 0.027617931365966797
+INFO 2025-02-23 13:57:09,600 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+INFO 2025-02-23 13:57:09,629 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.1005251407623291
+INFO 2025-02-23 13:57:09,666 operation "GET - TelegramController[get_channel_data] /api/tg/get_channel_data" 0.03534579277038574
+INFO 2025-02-23 13:57:09,727 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.19655799865722656
+INFO 2025-02-23 13:57:09,809 operation "GET - TelegramController[get_messages] /api/tg/messages" 0.0808713436126709
+WARNING 2025-02-23 14:00:19,620 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" ('database is locked',)
+ERROR 2025-02-23 14:00:19,621 errors database is locked
+Traceback (most recent call last):
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/operation.py", line 210, in run
+    result = self.view_func(request, **values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/controllers/route/route_functions.py", line 97, in as_view
+    result = self.route.view_func(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 108, in refresh_data
+    channel_db = fetch_telegram_data(settings.CHANNEL_NAME, MESSAGES_LIMIT)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 53, in fetch_telegram_data
+    channel_response, messages = async_to_sync(
+                                 ^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py", line 66, in get_data
+    async with TelegramClient(
+               ^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 657, in __aenter__
+    return await self.start()
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 135, in _start
+    await self.connect()
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/telegrambaseclient.py", line 559, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/sessions/sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/sessions/sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+ERROR 2025-02-23 14:00:19,638 log Internal Server Error: /api/tg/refresh_data
+INFO 2025-02-23 14:00:19,666 mtprotosender Connecting to 149.154.167.92:443/TcpFull...
+INFO 2025-02-23 14:00:19,692 mtprotosender Connection to 149.154.167.92:443/TcpFull complete!
+WARNING 2025-02-23 14:00:25,034 operation "GET - TelegramController[refresh_data] /api/tg/refresh_data" ('database is locked',)
+ERROR 2025-02-23 14:00:25,036 errors database is locked
+Traceback (most recent call last):
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/operation.py", line 210, in run
+    result = self.view_func(request, **values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/ninja_extra/controllers/route/route_functions.py", line 97, in as_view
+    result = self.route.view_func(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 108, in refresh_data
+    channel_db = fetch_telegram_data(settings.CHANNEL_NAME, MESSAGES_LIMIT)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/controllers/telegram.py", line 53, in fetch_telegram_data
+    channel_response, messages = async_to_sync(
+                                 ^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/backend/api/telegram/bot.py", line 66, in get_data
+    async with TelegramClient(
+               ^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 657, in __aenter__
+    return await self.start()
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/auth.py", line 135, in _start
+    await self.connect()
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/client/telegrambaseclient.py", line 559, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/sessions/sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "/Users/pavelborisov/Dev/faridaily_django/.venv/lib/python3.12/site-packages/telethon/sessions/sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+ERROR 2025-02-23 14:00:25,043 log Internal Server Error: /api/tg/refresh_data
