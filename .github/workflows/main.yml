@@ -15,6 +15,7 @@ jobs:
         TG_API_ID: ${{ secrets.TG_API_ID }}
         TG_CHANNEL_TOKEN: ${{ secrets.TG_CHANNEL_TOKEN }}
         TG_TEST_CHANNEL_TOKEN: ${{ secrets.TG_TEST_CHANNEL_TOKEN }}
+        CHANNEL_NAME: "albumsweekly"
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
