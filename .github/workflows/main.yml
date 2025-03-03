@@ -11,6 +11,10 @@ jobs:
         SECRET_KEY: ${{ secrets.SECRET_KEY }}
         DEBUG: "True"
         ALLOWED_HOSTS: "127.0.0.1,localhost"
+        TG_API_HASK: ${{ secrets.TG_API_HASH }}
+        TG_API_ID: ${{ secrets.TG_API_ID }}
+        TG_CHANNEL_TOKEN: ${{ secrets.TG_CHANNEL_TOKEN }}
+        TG_TEST_CHANNEL_TOKEN: ${{ secrets.TG_TEST_CHANNEL_TOKEN }}
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3

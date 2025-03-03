@@ -30,12 +30,9 @@ os.makedirs(SESSION_DIR, exist_ok=True)
 
 TG_CHANNEL_TOKEN = env.int('TG_CHANNEL_TOKEN')
 TG_TEST_CHANNEL_TOKEN = env.int('TG_TEST_CHANNEL_TOKEN')
-TG_BOT_TOKEN = env.str('TG_BOT_TOKEN')
 TG_API_ID = env.int('TG_API_ID')
 TG_API_HASH = env.str('TG_API_HASH')
 CHANNEL_NAME = env.str('CHANNEL_NAME')
-TG_PHONE = env.str('TG_PHONE')
-TG_PASSWORD = env.str('TG_PASSWORD')
 
 
 def create_client() -> TelegramClient:

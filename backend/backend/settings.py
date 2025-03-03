@@ -154,7 +154,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 TG_CHANNEL_TOKEN = env.int('TG_CHANNEL_TOKEN', default='')
 TG_TEST_CHANNEL_TOKEN = env.int('TG_TEST_CHANNEL_TOKEN', default='')
-TG_BOT_TOKEN = env.str('TG_BOT_TOKEN', default='')
 TG_API_ID = env.int('TG_API_ID', default='')
 TG_API_HASH = env.str('TG_API_HASH', default='')
 CHANNEL_NAME = env.str('CHANNEL_NAME', default='')
