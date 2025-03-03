@@ -152,20 +152,18 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Telegram
 
-TG_CHANNEL_TOKEN = env.int('TG_CHANNEL_TOKEN')
-TG_TEST_CHANNEL_TOKEN = env.int('TG_TEST_CHANNEL_TOKEN')
-TG_BOT_TOKEN = env.str('TG_BOT_TOKEN')
-TG_API_ID = env.int('TG_API_ID')
-TG_API_HASH = env.str('TG_API_HASH')
-CHANNEL_NAME = env.str('CHANNEL_NAME')
-TG_PHONE = env.str('TG_PHONE')
-TG_PASSWORD = env.str('TG_PASSWORD')
+TG_CHANNEL_TOKEN = env.int('TG_CHANNEL_TOKEN', default='')
+TG_TEST_CHANNEL_TOKEN = env.int('TG_TEST_CHANNEL_TOKEN', default='')
+TG_BOT_TOKEN = env.str('TG_BOT_TOKEN', default='')
+TG_API_ID = env.int('TG_API_ID', default='')
+TG_API_HASH = env.str('TG_API_HASH', default='')
+CHANNEL_NAME = env.str('CHANNEL_NAME', default='')
 
 SECURE_REFERRER_POLICY = "strict-origin-when-cross-origin"
 # Celery
 
-CELERY_BROKER_URL = env.str('CELERY_BROKER_URL')
-CELERY_RESULT_BACKEND = env.str('CELERY_RESULT_BACKEND')
+CELERY_BROKER_URL = env.str('CELERY_BROKER_URL', default='')
+CELERY_RESULT_BACKEND = env.str('CELERY_RESULT_BACKEND', default='')
 CELERY_BEAT_SCHEDULE = {
     'publish-scheduled-posts': {
         'task': 'api.tasks.publish_scheduled_posts',
