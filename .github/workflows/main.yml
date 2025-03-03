@@ -53,7 +53,6 @@ jobs:
           username: ${{ secrets.DOCKER_LOGIN }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      # Build Frontend first
       - name: Build and push Frontend
         uses: docker/build-push-action@v5
         with:
@@ -77,5 +76,4 @@ jobs:
           context: ./nginx
           push: true
           tags: frailtynine/faridaily-nginx:latest
-          build-args: |
-            FRONTEND_IMAGE=frailtynine/faridaily-frontend:latest
+          cache-from: type=registry,ref=frailtynine/faridaily-frontend:latest
