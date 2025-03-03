@@ -2,7 +2,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import { DraftResponse } from "../../interface";
 import draftColums from "./DraftGridCols";
 import { stripHtmlTags } from "./utils";
-import { CircularProgress, Box, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { useComponent } from "../Main/Context";
 import TextEditor from "../Create/TextEditor";
 
