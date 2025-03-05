@@ -1,0 +1,92 @@
+version: '3'
+
+volumes:
+  media:
+  redis_data:
+  pg_data:
+  tg_session:
+
+services:
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  db:
+    image: postgres:13
+    env_file: .env.prod
+    volumes: 
+      - pg_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  backend:
+    image: frailtynine/faridaily-backend:latest
+    env_file: .env.prod
+    volumes:
+      - media:/app/media
+      - tg_session:/app/session
+    depends_on:
+      - db
+    restart: unless-stopped
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+  
+  frontend:
+    image: frailtynine/faridaily-frontend:latest
+    env_file: .env.prod
+
+  celery:
+    image: frailtynine/faridaily-backend:latest
+    command: poetry run celery -A backend worker -l INFO
+    env_file: .env.prod
+    volumes:
+      - media:/app/media
+      - tg_session:/app/session
+    depends_on:
+      - redis
+      - backend
+      - db
+    restart: unless-stopped
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  celery-beat:
+    image: frailtynine/faridaily-backend:latest
+    command: poetry run celery -A backend beat -l INFO
+    env_file: .env.prod
+    volumes:
+      - media:/app/media
+      - tg_session:/app/session
+    depends_on:
+      - redis
+      - backend
+      - db
+    restart: unless-stopped
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+  
+  gateway:
+    build: ./nginx/
+    env_file: .env.prod
+    ports:
+      - 8020:80
+    volumes:
+      - media:/media/
+    depends_on:
+      - backend
+      - frontend

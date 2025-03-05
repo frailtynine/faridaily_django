@@ -61,14 +61,9 @@ async def get_data(
         A tuple containing a ChannelResponse object,
         and TotalList object with messages data.
     """
-    # async with TelegramClient(
-    #     os.path.join(ROOT_DIR, f'{CHANNEL_NAME}.session'),
-    #     TG_API_ID,
-    #     TG_API_HASH
-    # ) as client:
     client = create_client()
     try:
-        await client.connect() 
+        await client.connect()
         # Check authorization
         if not await client.is_user_authorized():
             logger.error("Client not authorized")
