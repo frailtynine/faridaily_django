@@ -24,12 +24,13 @@ export default function DraftGrid ({drafts}: DraftGridProps) {
   }));
 
   return (
-    <Box>
+    <Box sx={{width: {md: '710px', xs: '400px'} }}>
       <Typography>Draft posts</Typography>
-      <DataGrid 
+      <DataGrid
+        className="draft-grid"
         columns={draftColums}
         rows={draftRows}
-        sx={{ overflowY: 'auto', width: '710px' }}
+        sx={{ overflowY: 'auto', overflowX: 'auto'}}
         disableColumnFilter
         sortingOrder={['desc', 'asc']}
         initialState={{

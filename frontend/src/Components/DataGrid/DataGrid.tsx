@@ -62,7 +62,7 @@ export default function MainDataGrid({channelCount, messages}: MainDataGridProps
   }
 
   return (
-    <Box>
+    <Box sx={{width: {md: '100%', xs: '400px'} }}>
       <div style={{ display: 'flex', justifyContent: 'end', marginBottom: '16px', gap: '10px'}}>
         <Button 
           variant="contained"
@@ -104,7 +104,8 @@ export default function MainDataGrid({channelCount, messages}: MainDataGridProps
         />
       </div>
       <DataGrid
-        sx={{ overflowY: 'auto' }}
+        className="message-grid"
+        sx={{ overflowY: 'auto', overflowX: 'auto' }}
         disableColumnFilter
         rows={filteredRows}
         columns={columns}

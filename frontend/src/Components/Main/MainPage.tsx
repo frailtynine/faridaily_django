@@ -29,10 +29,10 @@ export default function MainPage () {
   }
   
   return (
-    <Container>
+    <Box>
       <Box>
       <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
-        <Toolbar>
+        <Toolbar sx={{ flexDirection: { xs: 'column', sm: 'row' } }}>
             <Typography 
               variant="h6" 
               noWrap 
@@ -57,6 +57,6 @@ export default function MainPage () {
       </Box>
       {currentComponent}
       <FloatButton />
-    </Container>
+    </Box>
   )
 }
