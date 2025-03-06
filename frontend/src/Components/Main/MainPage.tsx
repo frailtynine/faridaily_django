@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { verifyToken } from "../../api";
 import GridPage from "../DataGrid/GridPage";
 import { useComponent } from "./Context";
-import { Box, CircularProgress, Container, AppBar, Toolbar, Typography, Button } from "@mui/material";
+import { Box, CircularProgress, AppBar, Toolbar, Typography, Button } from "@mui/material";
 import FloatButton from "../Buttons/FloatButton";
 import LogoutButton from "../Buttons/LogoutButton";
 import SettingsPage from "../Settings/SettingsPage";
