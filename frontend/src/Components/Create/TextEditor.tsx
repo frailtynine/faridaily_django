@@ -101,7 +101,7 @@ export default function TextEditor ({id}: TextEditorProps) {
   }
 
   return (
-    <Box sx={{marginTop: '40px'}}>
+    <Box sx={{marginTop: '40px', width: { xs: '100%', md: '40vw' }}}>
       {error && <Alert severity="error" sx={{marginBottom: '10px'}}>{error}</Alert>}
       <CustomDateTimePicker
               label="Publication date"
@@ -115,7 +115,7 @@ export default function TextEditor ({id}: TextEditorProps) {
         setTextValue={setTextValue}
         charLimit={4000}
         height='70vh'
-        width='40vw'
+        width='100%'
         templates={true}
       />
       <Box display="flex" justifyContent="flex-end" padding="24px" gap="10px">

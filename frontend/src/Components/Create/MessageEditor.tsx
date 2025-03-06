@@ -41,13 +41,13 @@ export default function MessageEditor ({id}: MessageEditorProps) {
   }
 
   return (
-    <Box>
+    <Box sx={{ width: { xs: '100%', md: '40vw' }}}>
       <Editor
         textValue={textValue}
         setTextValue={setTextValue}
         charLimit={4000}
         height='70vh'
-        width='40vw'
+        width='100%'
         templates={true}
       />
       <Box display="flex" justifyContent="flex-end" padding="24px" gap="10px">

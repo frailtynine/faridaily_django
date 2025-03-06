@@ -50,8 +50,12 @@ export default function TemplateEditor () {
 
   return (
     <Box
-    sx={{ display: 'flex', flexDirection: 'row', gap: '16px',}}
-  >
+      sx={{ 
+        display: 'flex',
+        flexDirection: 'row',
+        gap: '16px',
+        width: { xs: '100%', md: '40vw' }}}
+    >
       {/* Editor */}
       <Box>
           <TextField

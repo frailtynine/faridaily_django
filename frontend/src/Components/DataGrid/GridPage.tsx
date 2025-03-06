@@ -12,7 +12,6 @@ export default function GridPage() {
   const [drafts, setDrafts] = useState<DraftResponse[]>([]);
   const [messages, setMessages] = useState<MessageResponse[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
-
   
 
   useEffect(() => {
@@ -62,7 +61,7 @@ export default function GridPage() {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: '30px', marginTop: '40px'}}>
-      <Box sx={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
+      <Box sx={{ display: 'flex',  flexDirection: { xs: 'column', md: 'row' }, gap: '10px' }}>
         {drafts && channelData && <DraftGrid drafts={drafts}/>}
         {channelData && <ChartData channel={channelData}/>}
       </Box>
