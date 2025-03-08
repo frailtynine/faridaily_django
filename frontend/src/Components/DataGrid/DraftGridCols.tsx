@@ -4,7 +4,8 @@ const draftColums: GridColDef<any>[] = [
   {
     field: 'text',
     headerName: 'Text',
-    width: 500,
+    maxWidth: 400,
+    minWidth: 280,
     renderCell: (params) => {
       const {text, handleClick } = params.value
       return (

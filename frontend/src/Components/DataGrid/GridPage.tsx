@@ -61,7 +61,7 @@ export default function GridPage() {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: '30px', marginTop: '40px'}}>
-      <Box sx={{ display: 'flex',  flexDirection: { xs: 'column', md: 'row' }, gap: '10px' }}>
+      <Box sx={{ display: 'flex',  flexDirection: { xs: 'column', md: 'row' }, gap: '40px', marginBottom: '40px' }}>
         {drafts && channelData && <DraftGrid drafts={drafts}/>}
         {channelData && <ChartData channel={channelData}/>}
       </Box>

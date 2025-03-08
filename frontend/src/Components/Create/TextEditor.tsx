@@ -109,6 +109,7 @@ export default function TextEditor ({id}: TextEditorProps) {
               onChange={(value) => {
                 setPubDate(value?.toISOString() || '');
               }}
+              disablePast={true}
             />
       <Editor
         textValue={textValue}

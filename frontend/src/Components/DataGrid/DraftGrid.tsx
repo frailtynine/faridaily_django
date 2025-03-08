@@ -24,8 +24,8 @@ export default function DraftGrid ({drafts}: DraftGridProps) {
   }));
 
   return (
-    <Box sx={{width: {md: '710px', xs: '400px'} }}>
-      <Typography>Draft posts</Typography>
+    <Box sx={{width: {md: '520px', xs: '400px'} }}>
+      <Typography variant="h4">Draft posts</Typography>
       <DataGrid
         className="draft-grid"
         columns={draftColums}
