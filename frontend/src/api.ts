@@ -2,7 +2,7 @@ import axios from "axios";
 import { ChannelResponse, LoginRequest, LoginResponse } from "./interface";
 
 
-const BASE_URL: string = import.meta.env.VITE_BASE_URL || '';
+export const BASE_URL: string = import.meta.env.VITE_BASE_URL || '';
 
 const api = axios.create({baseURL: `${BASE_URL}/api/`})
 
@@ -65,6 +65,23 @@ export async function postModel(endpoint: string, payload: any) {
     return response.data;
   } catch (error) {
     console.error('Error posting model:', error);
+    throw error;
+  }
+}
+
+export async function postFile(endpoint: string, file: File) {
+  try {
+    const formData = new FormData();
+    formData.append('file', file);
+
+    const response = await api.post<any>(endpoint, formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    });
+    return response.data;
+  } catch (error) {
+    console.error('Error posting file:', error);
     throw error;
   }
 }

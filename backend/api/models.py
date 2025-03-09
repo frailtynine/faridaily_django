@@ -45,6 +45,7 @@ class DraftDB(models.Model):
         related_name='drafts',
         null=True
     )
+    media_url = models.JSONField(null=True)
 
 
 class DraftHistory(models.Model):

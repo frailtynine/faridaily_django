@@ -111,7 +111,7 @@ class TelegramController:
         Query param test used for sending to test channel.
         """
         try:
-            async_to_sync(send_message)(payload.text, test)
+            async_to_sync(send_message)(payload.text, payload.images, test)
             return HTTPStatus.OK, APIMessageSchema(message='ok')
         except Exception as e:
             raise e

@@ -4,6 +4,10 @@ from ninja_extra.permissions import IsAuthenticated
 from ninja_jwt.authentication import JWTAuth
 
 from api.models import DraftDB, DraftHistory
+import os
+from django.core.files.storage import default_storage
+from django.core.files.base import ContentFile
+from django.conf import settings
 from api.schemas.drafts import (
     DraftDBSchema,
     DraftCreateSchema,
@@ -20,6 +24,16 @@ class DraftController:
         payload_dict['user'] = user
         draft = DraftDB.objects.create(**payload_dict)
         return draft
+
+    @route.post('/save_file')
+    def save_file(self, request):
+        file = request.FILES['file']
+        file_name = default_storage.save(
+            os.path.join('media', file.name),
+            ContentFile(file.read())
+        )
+        file_url = os.path.join(settings.MEDIA_URL, file_name)
+        return {'file_url': file_url}
 
     @route.put('/{id}', response=DraftDBSchema)
     def update_draft(self, request, id: int, payload: DraftUpdateSchema):

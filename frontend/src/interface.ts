@@ -29,6 +29,7 @@ export interface LoginResponse {
 
 export interface MessageUpdateRequest {
   text: string;
+  images?: string[];
 }
 
 export interface MessageResponse {
@@ -47,6 +48,7 @@ export interface MessageResponse {
 export interface DraftCreateRequest {
   text: string;
   pub_date?: string;
+  media_url?: string[];
 }
 
 export interface DraftUpdateRequest extends DraftCreateRequest {
