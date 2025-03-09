@@ -1,12 +1,32 @@
 import re
+import os
 from typing import Literal
 from datetime import datetime
+
+from django.conf import settings
 
 from api.models import MessageDB
 
 
 MESSAGE_QUERY_LITERAL = Literal['y', 'm', 'd']
 MILLISECONDS_MILTIPLIER = 1000
+
+
+def get_local_image_paths(
+    images: list[str] | None
+) -> list[str] | None:
+    """Converts relative parts from DB to local paths."""
+    if images:
+        return [
+            os.path.join(
+                settings.BASE_DIR,
+                'media',
+                'media',
+                os.path.basename(image)
+            )
+            for image in images
+        ]
+    return None
 
 
 def preprocess_text(text: str):

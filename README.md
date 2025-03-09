@@ -45,12 +45,13 @@ The core feature is deep analytics, providing insights into engagement metrics, 
 
 **Database**
 - PostgreSQL / MySQL – Storing messages, analytics, and user data
+- Sqlite for Celery Beat
 
 ### Deployment
 
 **For development with Sqlite DB:**
 - Clone project
-- Fill `.env.dev` template
+- Create `.env.dev` from `env-template` template
 - Create `.env` file in the `frontend` folder and add `VITE_BASE_URL=http://localhost:8020` to it.
 - Install poetry and run `poetry install` in the root directory of the project
 - Install redis
@@ -59,7 +60,6 @@ The core feature is deep analytics, providing insights into engagement metrics, 
 **For production:**
 
 ### TODO
-- Media attachments to Telegram posts. First priority.
+- Large file attachments.
 - Day and year sorting for Telegram channel views chart.
 - Backend stores history of edits both for draft messages that haven't been posted and for published messages, but the functionality for viewing these edits is still not implemented.
-- Day and year sorting for Telegram channel views chart.

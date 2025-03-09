@@ -20,6 +20,7 @@ env = environ.Env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_URL = env.str('BASE_URL')
 
 LOG_DIR = os.path.join(BASE_DIR, 'logs')
 if not os.path.exists(LOG_DIR):
@@ -113,7 +114,7 @@ else:
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME':'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
@@ -143,6 +144,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+MEDIA_URL = 'media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
@@ -213,6 +216,7 @@ NINJA_JWT = {
 }
 
 SECURE_REFERRER_POLICY = "strict-origin-when-cross-origin"
+
 # Superuser creation
 DJANGO_SUPERUSER_USERNAME = env.str('DJANGO_SUPERUSER_USERNAME', default='admin')
 DJANGO_SUPERUSER_EMAIL = env.str('DJANGO_SUPERUSER_EMAIL', default='admin@example.com')

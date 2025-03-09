@@ -1,13 +1,16 @@
 import { useState, useEffect } from "react";
 import Editor from "../Editor/Editor";
 import { Box, Button, Alert } from "@mui/material";
-import { fetchModels, postModel, updateModel } from "../../api";
+import { fetchModels, postModel, updateModel, postFile } from "../../api";
 import { useComponent } from "../Main/Context";
 import MainPage from "../Main/MainPage";
 import DeleteButton from "./DeleteButton";
 import { DraftResponse, DraftCreateRequest, MessageUpdateRequest, DraftUpdateRequest } from "../../interface";
 import CustomDateTimePicker from "../Misc/CustomDatePicker";
 import dayjs from "dayjs";
+import FileSaveButton from "../Buttons/FileSaveButton";
+import CustomImageList from "./CustomImageList";
+
 
 interface TextEditorProps {
   id?: number;
@@ -16,10 +19,11 @@ interface TextEditorProps {
 export default function TextEditor ({id}: TextEditorProps) {
   const [textValue, setTextValue] = useState<string>('');
   const [draft, setDraft] = useState<DraftResponse>();
+  const [images, setImages] = useState<string[]>([])
   const [pubDate, setPubDate] = useState<string>('');
   const {setCurrentComponent} = useComponent();
   const [error, setError] = useState<string | null>(null)
-  
+
   useEffect(() => {
     if (id) {
       fetchModels(`drafts/${id}`)
@@ -27,6 +31,7 @@ export default function TextEditor ({id}: TextEditorProps) {
         setTextValue(draftData.text);
         setDraft(draftData);
         setPubDate(draftData.pub_date);
+        setImages(draftData.media_url || [])
       })
       .catch((error) => {
         console.log(error);
@@ -34,13 +39,25 @@ export default function TextEditor ({id}: TextEditorProps) {
     }
   }, [])
 
+  const handleSave = async (file: File) => {
+    postFile('drafts/save_file', file)
+    .then((data) => {
+      setImages((prev) => [...prev, data.file_url]);
+    });
+  }
+
+  const handleDeleteImage = (indexToDelete: number) => {
+    setImages(images.filter((_, index) => index !== indexToDelete))
+  }
+
   const handleSubmit = async (text: string) => {
     setError(null);
     if (id && draft) {
       const payload: DraftResponse = {
         id: draft.id,
         pub_date: pubDate,
-        text: textValue
+        text: textValue,
+        media_url: images
       }
       updateModel('drafts', id, payload)
       .then(() => {
@@ -56,7 +73,8 @@ export default function TextEditor ({id}: TextEditorProps) {
     } else {
       const payload: DraftCreateRequest = {
         text: text,
-        ...(pubDate && { pub_date: pubDate })
+        ...(pubDate && { pub_date: pubDate }),
+        ...(images.length > 0 && { media_url: images })
       }
       postModel('drafts/create', payload)
       .then(() => {
@@ -81,7 +99,8 @@ export default function TextEditor ({id}: TextEditorProps) {
       endpoint = 'tg/send';
     }
     const payload: MessageUpdateRequest = {
-      text: textValue
+      text: textValue,
+      images: images
     }
     postModel(endpoint, payload)
     .then(() => {
@@ -109,7 +128,9 @@ export default function TextEditor ({id}: TextEditorProps) {
               onChange={(value) => {
                 setPubDate(value?.toISOString() || '');
               }}
+              disablePast={true}
             />
+      <FileSaveButton handleSave={handleSave}/>
       <Editor
         textValue={textValue}
         setTextValue={setTextValue}
@@ -118,6 +139,7 @@ export default function TextEditor ({id}: TextEditorProps) {
         width='100%'
         templates={true}
       />
+      {images && <CustomImageList images={images} onDeleteImage={handleDeleteImage}/>}
       <Box display="flex" justifyContent="flex-end" padding="24px" gap="10px">
         <Button variant="contained" size="small" onClick={() => handlePost(true)}>Post to Test Channel</Button>
         <Button variant="contained" size="small" onClick={() => handlePost(false)}>Post to Telegram</Button>

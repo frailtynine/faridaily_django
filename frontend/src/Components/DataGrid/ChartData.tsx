@@ -21,12 +21,12 @@ export default function ChartData({channel}: ChartDataProps) {
   
   return (
     <Box>
-      <Typography>Faridaily Stats:</Typography>
+      <Typography variant="h4">Faridaily Stats:</Typography>
         <List>
           <ListItem>Followers: {channel.followers}</ListItem>
           <ListItem>{channelGrowth()}</ListItem>
         </List>
-      <CustomBarChart xAxis={channel.views_graph.date} yAxis={channel.views_graph.views} width={400} height={300}/>
+      <CustomBarChart xAxis={channel.views_graph.date} yAxis={channel.views_graph.views} width={500} height={300}/>
     </Box>
   )
 }

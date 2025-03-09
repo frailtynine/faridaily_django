@@ -9,15 +9,16 @@ interface ReusableDateTimePickerProps {
   value: Dayjs | null;
   onChange: (newValue: Dayjs | null) => void;
   noTime?: boolean;
+  disablePast?: boolean
 }
 
-const CustomDateTimePicker: React.FC<ReusableDateTimePickerProps> = ({ label, value, onChange, noTime = false }) => {
+const CustomDateTimePicker: React.FC<ReusableDateTimePickerProps> = ({ label, value, onChange, noTime = false, disablePast = false }) => {
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale='ru'>
       {noTime ? (
-      <DatePicker label={label} value={value} onChange={onChange} />
+      <DatePicker label={label} value={value} onChange={onChange} disablePast={disablePast}/>
       ) : (
-      <DateTimePicker label={label} value={value} onChange={onChange} />
+      <DateTimePicker label={label} value={value} onChange={onChange} disablePast={disablePast}/>
       )}
     </LocalizationProvider>
   );

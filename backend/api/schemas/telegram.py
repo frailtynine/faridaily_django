@@ -47,6 +47,7 @@ class MessageResponse(Schema):
 
 class MessageUpdate(Schema):
     text: str
+    images: list[str] | None = None
 
 
 class MessageHistoryResponse(Schema):

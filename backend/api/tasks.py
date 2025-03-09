@@ -47,7 +47,7 @@ def publish_scheduled_posts(test: bool = False):
             post.is_published = True
             post.save()
             if not test:
-                async_to_sync(send_message)(post.text)
+                async_to_sync(send_message)(post.text, post.media_url)
                 return 'success!'
 
 

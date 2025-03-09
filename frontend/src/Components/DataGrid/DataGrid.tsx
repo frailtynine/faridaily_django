@@ -98,7 +98,7 @@ export default function MainDataGrid({channelCount, messages}: MainDataGridProps
           label="Search"
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
-          variant="outlined"
+          variant="standard"
           size="small"
           sx={{  marginRight: '10px' }}
         />
@@ -107,6 +107,7 @@ export default function MainDataGrid({channelCount, messages}: MainDataGridProps
         className="message-grid"
         sx={{ overflowY: 'auto', overflowX: 'auto' }}
         disableColumnFilter
+        disableColumnMenu
         rows={filteredRows}
         columns={columns}
         sortingOrder={['desc', 'asc']}

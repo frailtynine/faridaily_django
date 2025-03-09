@@ -9,6 +9,7 @@ from users.schemas import UserReadSchema
 class DraftCreateSchema(Schema):
     pub_date: Optional[datetime] = None
     text: str
+    media_url: list[str]
 
 
 class DraftUpdateSchema(DraftCreateSchema):
@@ -22,6 +23,7 @@ class DraftDBSchema(Schema):
     is_published: bool
     user: UserReadSchema | None = None
     edits: list['DraftHistorySchema']
+    media_url: list[str] | None = None
 
     class Config:
         orm_mode = True

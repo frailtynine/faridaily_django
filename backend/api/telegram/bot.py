@@ -18,6 +18,7 @@ from ninja.errors import HttpError
 from api.schemas.telegram import ChannelResponse, MessageUpdate
 from api.telegram.html_parser import CustomHtmlParser
 from api.telegram.utils import prepare_html_for_tg
+from api.utils import get_local_image_paths
 
 
 logger = logging.getLogger(__name__)
@@ -123,18 +124,33 @@ async def get_data(
             await client.disconnect()
 
 
-async def send_message(message, test: bool = False) -> Message:
+async def send_message(
+    message: str,
+    images: list[str] = None,
+    test: bool = False
+) -> Message:
+    # TODO: Add upload mechanics for larger files.
+    local_image_paths = get_local_image_paths(images)
+    entity = int(
+        TG_TEST_CHANNEL_TOKEN
+        if test
+        else settings.TG_CHANNEL_TOKEN
+    )
     client = create_client()
     await client.start()
-    sent_message = await client.send_message(
-        entity=int(
-            TG_TEST_CHANNEL_TOKEN
-            if test
-            else settings.TG_CHANNEL_TOKEN
-        ),
-        message=prepare_html_for_tg(message),
-        parse_mode=CustomHtmlParser(),
-    )
+    if local_image_paths:
+        sent_message = await client.send_file(
+            entity=entity,
+            message=prepare_html_for_tg(message),
+            parse_mode=CustomHtmlParser(),
+            file=local_image_paths
+        )
+    else:
+        sent_message = await client.send_message(
+            entity=entity,
+            message=prepare_html_for_tg(message),
+            parse_mode=CustomHtmlParser(),
+        )
     return sent_message
 
 
@@ -145,7 +161,8 @@ async def edit_message(message_id: int, payload: MessageUpdate) -> Message:
         entity=int(settings.TG_CHANNEL_TOKEN),
         message=message_id,
         text=prepare_html_for_tg(payload.text),
-        parse_mode=CustomHtmlParser()
+        parse_mode=CustomHtmlParser(),
+        file=payload.images
     )
     client.disconnect()
     return updated_message
