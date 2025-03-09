@@ -23,7 +23,7 @@ class DraftDBSchema(Schema):
     is_published: bool
     user: UserReadSchema | None = None
     edits: list['DraftHistorySchema']
-    media_url: str | None = None
+    media_url: list[str] | None = None
 
     class Config:
         orm_mode = True

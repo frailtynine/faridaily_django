@@ -18,16 +18,19 @@ local_settings.py
 # Database
 db.sqlite3
 db.sqlite3-journal
+celerybeat-schedule.db
 
 # Static files
 /static/
 
 # Media files
 /media/
+/backend/media/
 
 # logs 
 
 /logs/
+/backend/logs/
 
 # VS Code
 .vscode/
@@ -40,4 +43,6 @@ db.sqlite3-journal
 
 # Session files 
 *.session
+*.session-journal
 /session/
+/backend/session/

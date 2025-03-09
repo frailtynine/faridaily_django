@@ -129,7 +129,7 @@ async def send_message(
     images: list[str] = None,
     test: bool = False
 ) -> Message:
-    # TODO: Add upload mechanics for larger files. 
+    # TODO: Add upload mechanics for larger files.
     local_image_paths = get_local_image_paths(images)
     entity = int(
         TG_TEST_CHANNEL_TOKEN
@@ -145,15 +145,12 @@ async def send_message(
             parse_mode=CustomHtmlParser(),
             file=local_image_paths
         )
-    sent_message = await client.send_message(
-        entity=int(
-            TG_TEST_CHANNEL_TOKEN
-            if test
-            else settings.TG_CHANNEL_TOKEN
-        ),
-        message=prepare_html_for_tg(message),
-        parse_mode=CustomHtmlParser(),
-    )
+    else: 
+        sent_message = await client.send_message(
+            entity=entity,
+            message=prepare_html_for_tg(message),
+            parse_mode=CustomHtmlParser(),
+        )
     return sent_message
 
 

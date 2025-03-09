@@ -114,7 +114,7 @@ else:
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME':'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
@@ -216,6 +216,7 @@ NINJA_JWT = {
 }
 
 SECURE_REFERRER_POLICY = "strict-origin-when-cross-origin"
+
 # Superuser creation
 DJANGO_SUPERUSER_USERNAME = env.str('DJANGO_SUPERUSER_USERNAME', default='admin')
 DJANGO_SUPERUSER_EMAIL = env.str('DJANGO_SUPERUSER_EMAIL', default='admin@example.com')
