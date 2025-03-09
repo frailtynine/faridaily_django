@@ -145,7 +145,7 @@ async def send_message(
             parse_mode=CustomHtmlParser(),
             file=local_image_paths
         )
-    else: 
+    else:
         sent_message = await client.send_message(
             entity=entity,
             message=prepare_html_for_tg(message),
