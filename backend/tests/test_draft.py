@@ -13,6 +13,7 @@ def test_crud_draft(client: Client, auth_headers):
     # Create
     payload = DraftCreateSchema(
         text='test text',
+        media_url=[]
     )
     wrong_key_payload = {
         'content': 'text'
@@ -36,7 +37,8 @@ def test_crud_draft(client: Client, auth_headers):
     assert wrong_response.status_code == 422
     # Update
     edit_payload = DraftCreateSchema(
-        text='edit text'
+        text='edit text',
+        media_url=[]
     )
     edit_response = client.put(
         path=f'/api/drafts/{object.pk}',
