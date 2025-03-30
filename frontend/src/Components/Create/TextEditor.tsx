@@ -92,12 +92,7 @@ export default function TextEditor ({id}: TextEditorProps) {
 
   const handlePost = async (test: boolean) => {
     // Refactor to ternary
-    let endpoint: string = '';
-    if (test) {
-      endpoint = 'tg/send?test=true';
-    } else{
-      endpoint = 'tg/send';
-    }
+    const endpoint: string = test ? 'tg/send?test=true' : 'tg/send';
     const payload: MessageUpdateRequest = {
       text: textValue,
       images: images
@@ -130,7 +125,6 @@ export default function TextEditor ({id}: TextEditorProps) {
               }}
               disablePast={true}
             />
-      <FileSaveButton handleSave={handleSave}/>
       <Editor
         textValue={textValue}
         setTextValue={setTextValue}
@@ -139,7 +133,20 @@ export default function TextEditor ({id}: TextEditorProps) {
         width='100%'
         templates={true}
       />
-      {images && <CustomImageList images={images} onDeleteImage={handleDeleteImage}/>}
+      <Box 
+        sx={{
+          display: 'flex',
+          flexDirection: 'row',
+          overflowX: 'auto',
+          gap: 2,
+          mt: 2,
+          '& > *': {  // Add this to prevent children from shrinking
+            flexShrink: 0
+          }
+        }}>
+        {images.length < 10 && <FileSaveButton handleSave={handleSave}/>}
+        {images.length > 0 && <CustomImageList images={images} onDeleteImage={handleDeleteImage}/>}
+      </Box>
       <Box display="flex" justifyContent="flex-end" padding="24px" gap="10px">
         <Button variant="contained" size="small" onClick={() => handlePost(true)}>Post to Test Channel</Button>
         <Button variant="contained" size="small" onClick={() => handlePost(false)}>Post to Telegram</Button>
