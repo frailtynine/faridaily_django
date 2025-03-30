@@ -1,4 +1,4 @@
-import { ImageList, ImageListItem, IconButton } from "@mui/material";
+import { IconButton, Box, Paper } from "@mui/material";
 import CloseIcon from '@mui/icons-material/Close';
 import { BASE_URL } from "../../api";
 
@@ -9,11 +9,13 @@ interface ImageListProps {
 
 export default function CustomImageList({images, onDeleteImage}: ImageListProps) {
   return (
-    <ImageList
-      rowHeight={150}
+    <Box
+      sx={{display: 'flex', flexDirection: 'row', gap: 2}}
     >
       {images.map((image, index) => (
-        <ImageListItem key={index} sx={{width: '150px', height: '150px'}}>
+        <Paper
+          sx={{ width: '100px', height: '100px', position: 'relative' }}
+        >
           <IconButton
             onClick={() => onDeleteImage(index)}
             sx={{
@@ -25,7 +27,7 @@ export default function CustomImageList({images, onDeleteImage}: ImageListProps)
                 backgroundColor: 'rgba(255, 255, 255, 0.9)',
               },
               padding: '4px',
-              zIndex: 1
+              zIndex: 2
             }}
             size="small"
           >
@@ -40,8 +42,8 @@ export default function CustomImageList({images, onDeleteImage}: ImageListProps)
               objectFit: 'contain',
             }}
           />
-        </ImageListItem>
+        </Paper>
       ))}
-    </ImageList>
+    </Box>
   )
 }

@@ -7,7 +7,10 @@ import os
 import environ
 from telethon import TelegramClient
 from telethon.tl.types.stats import BroadcastStats
-from telethon.tl.types import DataJSON, Message
+from telethon.tl.types import (
+    DataJSON,
+    Message,
+)
 from telethon.tl.types.auth import SentCode
 from telethon.errors import SessionPasswordNeededError
 from telethon.helpers import TotalList
@@ -126,11 +129,24 @@ async def get_data(
 
 async def send_message(
     message: str,
-    images: list[str] = None,
+    media: list[str] = None,
     test: bool = False
 ) -> Message:
+    """
+    Sends a message to a Telegram channel with optional media files.
+
+    Args:
+        message (str): The message text to send.
+        images (list[str], optional): A list of image file paths 
+        to attach to the message. Defaults to None.
+        test (bool, optional): If True, sends the message 
+        to the test channel. Defaults to False.
+
+    Returns:
+        Message: The sent message object.
+    """
     # TODO: Add upload mechanics for larger files.
-    local_image_paths = get_local_image_paths(images)
+
     entity = int(
         TG_TEST_CHANNEL_TOKEN
         if test
@@ -138,12 +154,13 @@ async def send_message(
     )
     client = create_client()
     await client.start()
+    local_image_paths = get_local_image_paths(media)
     if local_image_paths:
         sent_message = await client.send_file(
             entity=entity,
             caption=prepare_html_for_tg(message),
             parse_mode=CustomHtmlParser(),
-            file=local_image_paths
+            file=local_image_paths,
         )
     else:
         sent_message = await client.send_message(
@@ -162,7 +179,7 @@ async def edit_message(message_id: int, payload: MessageUpdate) -> Message:
         message=message_id,
         text=prepare_html_for_tg(payload.text),
         parse_mode=CustomHtmlParser(),
-        file=payload.images
+        # file=payload.images
     )
     client.disconnect()
     return updated_message
